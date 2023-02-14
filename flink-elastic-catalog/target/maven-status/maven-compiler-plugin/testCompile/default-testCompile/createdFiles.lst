@@ -1,0 +1,3 @@
+com/getindata/flink/connector/jdbc/catalog/ElasticJdbcCatalogFactoryTest.class
+com/getindata/flink/connector/jdbc/catalog/ElasticsearchTestContainer.class
+com/getindata/flink/connector/jdbc/catalog/ElasticCatalogTest.class

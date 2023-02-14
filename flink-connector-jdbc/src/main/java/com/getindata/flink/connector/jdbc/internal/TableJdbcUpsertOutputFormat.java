@@ -144,7 +144,7 @@ class TableJdbcUpsertOutputFormat
                 sql,
                 createRowKeyExtractor(pkFields),
                 (st, record) ->
-                        setRecordToStatement(
+                        JdbcUtils.setRecordToStatement(
                                 st, pkTypes, createRowKeyExtractor(pkFields).apply(record)));
     }
 
@@ -203,6 +203,6 @@ class TableJdbcUpsertOutputFormat
     }
 
     private static Function<Row, Row> createRowKeyExtractor(int[] pkFields) {
-        return row -> getPrimaryKey(row, pkFields);
+        return row -> JdbcUtils.getPrimaryKey(row, pkFields);
     }
 }
