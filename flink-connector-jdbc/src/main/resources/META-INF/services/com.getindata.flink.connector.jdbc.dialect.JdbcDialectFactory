@@ -13,5 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-com.getindata.flink.connector.jdbc.table.JdbcDynamicTableFactory
-com.getindata.flink.connector.jdbc.catalog.factory.JdbcCatalogFactory
+com.getindata.flink.connector.jdbc.dialect.derby.DerbyDialectFactory
+com.getindata.flink.connector.jdbc.dialect.mysql.MySqlDialectFactory
+com.getindata.flink.connector.jdbc.dialect.psql.PostgresDialectFactory
+com.getindata.flink.connector.jdbc.dialect.oracle.OracleDialectFactory
+com.getindata.flink.connector.jdbc.dialect.elastic.ElasticDialectFactory
