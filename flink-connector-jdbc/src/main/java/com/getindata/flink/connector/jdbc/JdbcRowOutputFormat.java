@@ -59,7 +59,7 @@ public class JdbcRowOutputFormat
     private static JdbcBatchStatementExecutor<Row> createRowExecutor(
             String sql, int[] typesArray, RuntimeContext ctx) {
         JdbcStatementBuilder<Row> statementBuilder =
-                (st, record) -> setRecordToStatement(st, typesArray, record);
+                (st, record) -> JdbcUtils.setRecordToStatement(st, typesArray, record);
         return JdbcBatchStatementExecutor.simple(
                 sql,
                 statementBuilder,
