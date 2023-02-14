@@ -1,5 +1,0 @@
-com/getindata/flink/connector/jdbc/catalog/ElasticJdbcCatalogFactory.class
-com/getindata/flink/connector/jdbc/catalog/ElasticCatalog.class
-com/getindata/flink/connector/jdbc/catalog/ElasticJdbcCatalogFactoryOptions.class
-com/getindata/flink/connector/jdbc/catalog/ElasticCatalog$ScanPartitionProperties.class
-com/getindata/flink/connector/jdbc/catalog/ElasticTypeMapper.class
